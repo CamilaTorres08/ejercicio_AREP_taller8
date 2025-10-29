@@ -1,1 +1,12 @@
+# Ignorar todos los archivos .env (en cualquier carpeta)
 **/.env
+
+# Ignorar variantes de .env (por ejemplo, .env.local, .env.dev, etc.)
+**/.env.*
+
+# Ignorar carpetas de entornos virtuales .venv en cualquier parte del proyecto
+**/.venv/
+
+**/venv/
+**/.idea/
+**/.vscode/
